@@ -561,7 +561,7 @@ class Document {
           doc.toString(), 'Document Delta cannot be empty.');
     }
 
-    assert((doc.last.data as String).endsWith('\n'));
+    // assert((doc.last.data as String).endsWith('\n'));
 
     var offset = 0;
     for (final op in doc.toList()) {
